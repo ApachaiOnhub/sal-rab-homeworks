@@ -19,7 +19,7 @@ function addInCartMessage(title, price) {
     // добавьте в конец переменной message пробел
     message = message + " ";
     // добавьте в конец переменной message текст 'теперь в корзине!'
-    message = message + "теперь в корзине";
+    message = message + "теперь в корзине!";
     // выведите переменную message в консоль
     console.log(message);
 
@@ -53,6 +53,7 @@ function addInCartSumChange(sum, delta) {
 
     // создайте переменную newSum и присвойте ей сумму oldSum и difference
     let newSum;
+    newSum = oldSum;
     newSum = newSum + oldSum;
     newSum = newSum + difference;
     // создайте переменную newSumText и присвойте ей результат склеивания переменной newSum и текста ' ₽'
